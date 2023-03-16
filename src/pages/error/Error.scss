@@ -1,0 +1,39 @@
+@import '../../styles/style.scss';
+
+.error {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    color: $primaryRed;
+    margin-bottom: 300px;
+
+    h1 {
+      padding-top: 150px;
+      font-size: 100px;
+      font-weight: 800;
+      color: $primaryRed;
+    }
+
+    p {
+      position: relative;
+      font-size: 17px;
+      font-weight: 600;
+      color: $primaryRed;
+      text-align: center;
+      width: 90%;
+    }
+
+    .linkContainer {
+      margin-top: 150px;
+
+      transition: ease-in-out 0.2s;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
